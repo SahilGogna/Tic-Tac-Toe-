@@ -118,14 +118,14 @@
                                 </subviews>
                             </stackView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cross has won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqG-yU-0oZ">
-                                <rect key="frame" x="50" y="40" width="668" height="60"/>
+                                <rect key="frame" x="50" y="40" width="668" height="36"/>
                                 <color key="backgroundColor" red="0.84493177330000002" green="0.96620899439999997" blue="0.79464930619999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGw-f2-CEk">
-                                <rect key="frame" x="50" y="140" width="668" height="55"/>
+                                <rect key="frame" x="50" y="116" width="668" height="55"/>
                                 <color key="backgroundColor" red="0.86589152489999999" green="0.89247054869999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="Play Again">
