@@ -15,6 +15,9 @@
 		08E9D10722962BFF00DC9C93 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E9D10422962BFF00DC9C93 /* Nought.png */; };
 		08E9D10822962BFF00DC9C93 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E9D10522962BFF00DC9C93 /* Board.png */; };
 		08E9D10922962BFF00DC9C93 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 08E9D10622962BFF00DC9C93 /* Cross.png */; };
+		08F6ED6822D62B0A0030FAA1 /* tictactoe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08F6ED6722D62B0A0030FAA1 /* tictactoe.gif */; };
+		08F6ED6A22D62EBC0030FAA1 /* ResultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F6ED6922D62EBC0030FAA1 /* ResultLabel.swift */; };
+		08F6ED6C22D631B30030FAA1 /* PlayAgainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F6ED6B22D631B30030FAA1 /* PlayAgainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		08E9D10422962BFF00DC9C93 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
 		08E9D10522962BFF00DC9C93 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
 		08E9D10622962BFF00DC9C93 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		08F6ED6722D62B0A0030FAA1 /* tictactoe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tictactoe.gif; sourceTree = "<group>"; };
+		08F6ED6922D62EBC0030FAA1 /* ResultLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultLabel.swift; sourceTree = "<group>"; };
+		08F6ED6B22D631B30030FAA1 /* PlayAgainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAgainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +72,12 @@
 				08E9D0F9229629BA00DC9C93 /* Assets.xcassets */,
 				08E9D10522962BFF00DC9C93 /* Board.png */,
 				08E9D10622962BFF00DC9C93 /* Cross.png */,
+				08F6ED6722D62B0A0030FAA1 /* tictactoe.gif */,
 				08E9D10422962BFF00DC9C93 /* Nought.png */,
 				08E9D0FB229629BA00DC9C93 /* LaunchScreen.storyboard */,
 				08E9D0FE229629BA00DC9C93 /* Info.plist */,
+				08F6ED6922D62EBC0030FAA1 /* ResultLabel.swift */,
+				08F6ED6B22D631B30030FAA1 /* PlayAgainButton.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -133,6 +142,7 @@
 			files = (
 				08E9D10822962BFF00DC9C93 /* Board.png in Resources */,
 				08E9D0FD229629BA00DC9C93 /* LaunchScreen.storyboard in Resources */,
+				08F6ED6822D62B0A0030FAA1 /* tictactoe.gif in Resources */,
 				08E9D0FA229629BA00DC9C93 /* Assets.xcassets in Resources */,
 				08E9D10722962BFF00DC9C93 /* Nought.png in Resources */,
 				08E9D10922962BFF00DC9C93 /* Cross.png in Resources */,
@@ -147,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F6ED6A22D62EBC0030FAA1 /* ResultLabel.swift in Sources */,
 				08E9D0F5229629B800DC9C93 /* ViewController.swift in Sources */,
+				08F6ED6C22D631B30030FAA1 /* PlayAgainButton.swift in Sources */,
 				08E9D0F3229629B800DC9C93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

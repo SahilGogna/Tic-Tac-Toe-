@@ -8,8 +8,8 @@ class ViewController: UIViewController {
     var gameState = [ 0,0,0,0,0,0,0,0,0]
     var isActive = true
     
-    @IBOutlet weak var playAgainButton: UIButton!
-    @IBOutlet weak var resultLable: UILabel!
+    @IBOutlet weak var playAgainButton: PlayAgainButton!
+    @IBOutlet weak var resultLable: ResultLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +20,6 @@ class ViewController: UIViewController {
         square = [1,2,3,4,5,6,7,8,9]
         isActive = true
         activePlayer = true
-        
-        playAgainButton.isHidden = true
-        resultLable.isHidden = true
         
         for i in 1...9{
             let button = view.viewWithTag(i) as! UIButton
@@ -45,6 +42,8 @@ class ViewController: UIViewController {
                 square[sender.tag-1] = 22
             }
             let victory = checkVictory()
+            
+            print("Status returned: \(victory)")
             
             // a player wins game
             if victory == 1{
